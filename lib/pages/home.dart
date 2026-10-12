@@ -72,8 +72,7 @@ class _HomeState extends State<Home> {
           title: Image.asset('assets/x-logo.png', height: 30),
           backgroundColor: _colors[_colorIndex],
           centerTitle: true,
-          actions: [ 
-            0 
+          actions: [
             IconButton(
               icon: const Icon(Icons.palette, color: Colors.white),
               onPressed: () {
